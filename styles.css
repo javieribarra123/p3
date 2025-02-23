@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('mundo.png');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.juego {
+    background: white;
+    padding: 5%;
+    border-radius: 50%;
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+}
+
+img {
+    width: 200px;
+    height: 130px;
+    border-width: 1%;
+    border-style: solid;
+    border-color: black;
+}
+
+.opciones button {
+    /*display: block;*/
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+}
+
+.opciones button:hover {
+    background-color: #2980b9;
+}
+
+#next{
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+#next:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contador {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+}
